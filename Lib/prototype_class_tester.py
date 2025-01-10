@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from decouple import config
 import time
-from PID_Control_class import PIDController
+from Lib.PID_Control_class import PIDController
 
 class Dobot_PID_Control:
     def __init__(self):
